@@ -1,4 +1,5 @@
-# UrTPickup-Bot written in Python by Gost0r
+# UrTPickup Bot for #urtpickup on Urban Terror (www.urbanterror.info)
+# Admins: HasHBolla, Biddle, NVB, LaSer, Gost0r & DocDude
 
 //COMMAND//	//PARAMETER//		//WHO//		//DESCRIPTION//				//NOTES//
 !quit					#OWNER#		Kills the bot
@@ -24,6 +25,6 @@
 !gameover				#ADDED#		Submits a gameover request - 4 needed
 !ring					#ADDED#		Spams a !ringer msg
 
-!add					#USER#		Adds you from pickup
+!add					#USER#		Adds you to pickup
 !status					#USER#		Shows who is added
 !help					#USER#		Shows the available pickup cmd list
