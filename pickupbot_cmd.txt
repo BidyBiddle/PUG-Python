@@ -4,27 +4,27 @@
 //COMMAND//	//PARAMETER//		//WHO//		//DESCRIPTION//				//NOTES//
 !quit					#OWNER#		Kills the bot
 
-!lock					#ADMIN#		Locks a game
-!unlock					#ADMIN#		Unlocks a game
-!getdata				#ADMIN#		Provides the ip + pw to the admin
-!addban		<nick>			#ADMIN#		Adds a ban for the nickname 		(nickname-based)
-!delban		<nick>			#ADMIN#		Removes a ban for the nickname
-!addmap		<map>			#ADMIN#		Adds a new map				!!WITHOUT ut4_!!
-!delmap		<map>			#ADMIN#		Removes a map				!!WITHOUT ut4_!!
-!setserver	<ip:port>		#ADMIN#		Sets the server
-!setrcon	<rconpassword>		#ADMIN#		Sets the rconpassword
-!test		<0-9>			#ADMIN#		Sets the player number			FOR TEST PROPOSES ONLY
+!lock					#ADMIN#		Lock a game
+!unlock					#ADMIN#		Unlock a game
+!getdata				#ADMIN#		Provides ip + pw to the admin
+!addban		<nick>			#ADMIN#		Add a ban for the nickname 		(nickname-based)
+!delban		<nick>			#ADMIN#		Remove a ban for the nickname
+!addmap		<map>			#ADMIN#		Add a new map				!!WITHOUT ut4_!!
+!delmap		<map>			#ADMIN#		Remove a map				!!WITHOUT ut4_!!
+!setserver	<ip:port>		#ADMIN#		Set the server
+!setrcon	<rconpassword>		#ADMIN#		Set the rconpassword
+!test		<0-9>			#ADMIN#		Set the player number			FOR TEST PROPOSES ONLY
 
 !reset					#OP#		Resets a game
-!rcon 		<cmd>			#OP#		Sends a rcon cmd to the server
+!rcon 		<cmd>			#OP#		Send a rcon cmd to the server
 
-!remove					#ADDED#		Removes you from pickup
-!maps					#ADDED#		Shows the available maps
-!map <ut4_/map>				#ADDED#		Votes for a map				!!with or without ut4_!!
-!lostpass				#ADDED#		Requests the pw of the gameserver
-!gameover				#ADDED#		Submits a gameover request - 4 needed
-!ring					#ADDED#		Spams a !ringer msg
+!remove					#ADDED#		Remove you from pickup
+!maps					#ADDED#		Show the available maps
+!map <ut4_/map>				#ADDED#		Vote for a map				!!with or without ut4_!!
+!lostpass				#ADDED#		Request the pw of the gameserver
+!gameover				#ADDED#		Submit a gameover request - 4 needed
+!ring					#ADDED#		Spam a !ringer msg
 
-!add					#USER#		Adds you to pickup
-!status					#USER#		Shows who is added
-!help					#USER#		Shows the available pickup cmd list
+!add					#USER#		Add you to pickup
+!status					#USER#		Show who is added
+!help					#USER#		Show the available pickup cmd list
